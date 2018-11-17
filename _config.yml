@@ -1,11 +1,11 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
+title: Curiosity For Knowledge
+description: My Mathematical Exploration
+author: Sidafa Conde
+github: https://github.com/sconde
+about: An insatiable hunger for knowledge
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/sconde_avatar.jpeg
 
 enableTags: true
 tagarray: []
@@ -16,16 +16,12 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
     - icon: fa-twitter
       link: "https://twitter.com/agusmakmun6"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/conde89"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/sconde"
 
 share:
   twitter_username: agusmakmun6
@@ -36,10 +32,10 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    #- text: XML Feed
+      #url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://sidafaconde.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
