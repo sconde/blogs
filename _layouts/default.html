@@ -44,9 +44,11 @@ layout: compress
     {% endif %}
 
     {% if page.image %}
-    <meta content="{{ site.url }}{{ site.baseurl }}/static/img/posts/{{ page.image }}" property="og:image">
+    <!--<link rel="shortcut icon" href="{{ "/static/img/favicon.ico" | prepend: site.baseurl }}"/>-->
+    <meta content="{{ "/static/img/posts/{{ page.image }}" | prepend: site.baseurl }}" property="og:image">
     {% else %}
-    <meta content="{{ site.url }}{{ site.baseurl }}{{ site.avatar_url }}" property="og:image">
+    <meta content="{{ "{{ site.avatar_url }}" | prepend: site.baseurl }}" property="og:image">
+    <!--<meta content="{{ site.url }}{{ site.baseurl }}{{ site.avatar_url }}" property="og:image">-->
     {% endif %}
 
     {% if page.categories %}
