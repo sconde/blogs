@@ -95,6 +95,7 @@ div.col-sm-3 strong {
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
   color: #8C8C8C;
+  text-align: left;
 }
 div.col-sm-3 img.profile-avatar {
   border-radius: 10px;
@@ -105,6 +106,10 @@ div.col-sm-3 img.profile-avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.col-sm-3 h1.author-name{
+    align: left;
 }
 
 /* Pagination */
@@ -130,7 +135,9 @@ div.col-sm-3 img.profile-avatar {
 /* Social Icons */
 .social{
   display: block;
-  margin: 10px 0;
+  margin: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .social ul {
   list-style-type: none;
