@@ -46,7 +46,7 @@ layout: compress
     {% if page.image %}
     <meta content="{{ page.image }}" property="og:image2">
     {% else %}
-    <meta content="{{ "/static/img/favicon.ico" | prepend: site.baseurl }}" property="og:image">
+    <meta content="{{ "/static/img/favicon.ico" | prepend: site.baseurl | prepend: site.url }}" property="og:image">
     <!--<meta content="{{ site.base_url }}{{ site.avatar_url }}" property="og:image">-->
     {% endif %}
 
