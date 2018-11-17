@@ -35,7 +35,7 @@ urls:
     #- text: XML Feed
       #url: /feed.xml
 
-url: "https://sidafaconde.github.io"
+url: ""
 baseurl: "/sidafaconde.github.io"
 paginate: 20
 per_page: 20
