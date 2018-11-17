@@ -3,8 +3,8 @@ description: My Mathematical Exploration
 author: Sidafa Conde
 github: https://github.com/sconde
 about: An insatiable hunger for knowledge
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+#disqus_shortname: sidafaconde
+#google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/sconde_avatar.jpeg
 
 enableTags: true
