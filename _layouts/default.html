@@ -46,7 +46,7 @@ layout: compress
     {% if page.image %}
     <meta content="{{ page.image }}" property="og:image2">
     {% else %}
-    <meta content="{{ site.avatar_url }}" property="og:image">
+    <meta content="{{ site.base_url }}{{ site.avatar_url }}" property="og:image">
     {% endif %}
 
     {% if page.categories %}
